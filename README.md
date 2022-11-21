@@ -1,4 +1,4 @@
-# SERIA Syntax Support README
+# SERIA Syntax Support
 
 by RedMoon
 
@@ -17,5 +17,9 @@ Initial release.
 ### 1.1.0
 
 Renamed to SERIA Syntax Support
+
+### 1.1.1
+
+Deleted README in README.md
 
 ---
