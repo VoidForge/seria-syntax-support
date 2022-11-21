@@ -1,0 +1,37 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": ".seria",
+	"patterns": [
+		{
+			"include": "#number"
+		},
+		{
+			"include": "#boolean"
+		},
+		{
+			"include": "#key"
+		},
+		{
+			"include": "#value"
+		}
+	],
+	"repository": {
+		"number": {
+			"match": "\\b[0-9]+\\.?[0-9]*\\b",
+			"name": "constant.numeric.seria"
+		},
+		"boolean": {
+			"match": "\\b(true)|(false)\\b",
+			"name": "constant.boolean.seria"
+		},
+		"key": {
+			"match": "\\bm_[^=]+\\b",
+			"name": "support.type.property-name.seria"
+		},
+		"value":{
+			"match": "\\b[a-zA-Z_]+\\w*\\b",
+			"name": "string.quoted.double.seria"
+		}
+	},
+	"scopeName": "source.seria"
+}
